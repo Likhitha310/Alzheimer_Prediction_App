@@ -50,4 +50,4 @@ This application utilizes a machine learning model trained to detect Alzheimer's
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-You can replace `<repository_url>` with the URL of your GitHub repository and update the contributors' section with the appropriate information. Feel free to customize it further based on your project's specifics! Let me know if you need further assistance.
+[(https://github.com/Likhitha310/alzheimer_pro_app/tree/main)]
