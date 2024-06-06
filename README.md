@@ -50,4 +50,4 @@ This application utilizes a machine learning model trained to detect Alzheimer's
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-[https://github.com/Likhitha310/alzheimer_pro_app/tree/main]
+https://github.com/Likhitha310/alzheimer_pro_app/tree/main
