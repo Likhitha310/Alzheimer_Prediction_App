@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alzheimer's Risk Prediction</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Alzheimer's Risk Prediction</h1>
+        <form action="/predict" method="post" class="mt-4">
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" class="form-control" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select class="form-control" id="gender" name="gender" required>
+                    <option value="0">Female</option>
+                    <option value="1">Male</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="cognitive_score">Cognitive Score:</label>
+                <input type="number" class="form-control" id="cognitive_score" name="cognitive_score" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Predict</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
