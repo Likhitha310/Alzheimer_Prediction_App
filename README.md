@@ -18,7 +18,7 @@ This application utilizes a machine learning model trained to detect Alzheimer's
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Likhitha310/Alzheimer_Prediction_App.git
    ```
 
 2. Install the required dependencies:
